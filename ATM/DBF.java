@@ -90,7 +90,7 @@ public class DBF {
 		
 		//парсим файл в объекты account
 		String[] results = text.split("\\s+");
-		System.out.println(Arrays.toString(results));		
+		//System.out.println(Arrays.toString(results));		
 		
 		int numberOfFieldsInFile = 5;//cardNumber,pin,balance,errPin,date
 		int numOfCards = results.length/numberOfFieldsInFile;

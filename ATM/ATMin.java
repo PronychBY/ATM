@@ -30,7 +30,7 @@ public class ATMin {
 		limitATM = 300000;
 		
 		//---добавим немного данных для тестирования
-		addSomeDefaultData();
+		//addSomeDefaultData();
 	}
 	
 	public static int authorization(String cardNumber, String pin) {
